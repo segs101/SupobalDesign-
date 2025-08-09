@@ -1,0 +1,163 @@
+/* main.css */
+    body {
+      /* font-family: Arial, sans-serif; */
+      background-color: #f8f9fa;
+      /* color: #212529; */
+    }
+    .navbar {
+      background-color: #5c3f2a;
+    }
+    .navbar-brand, .nav-link {
+      color: white !important;
+      font-weight: bold;
+      font-family: "Special Gothic Expanded One", sans-serif;
+      font-size: 1rem;
+
+    }
+    .navbar-brand img {
+      height: 40px;
+      margin-right: 10px;
+    }
+    .navbar-toggler {
+        background-color: #fff !important;
+        border-color: #fff !important;
+    }
+    .hero {
+      background: white;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      display: block;
+    }
+    .hero-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      padding: 20px;
+      text-align: center;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      color: #fff;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      font-family: "Special Gothic Expanded One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    .hero p{
+      font-size: 1.25rem;
+      max-width: 600px;
+      margin: auto;
+      color: #dedede;
+      font-family: "Open Sans", sans-serif;
+    }
+    .btn-group .btn {
+      margin: 10px;
+      background-color: #5c3f2a;
+      color: white;
+      font-family: "Open Sans", sans-serif;
+    }
+    .section {
+      padding: 60px 0;
+      background-color: #f8f9fa;
+      /* background-color: #7d664f; */
+    }
+    .section1 {
+      padding: 60px 0;
+      background-color: #FBFBFB;
+      /* background-color: #5d3c23; */
+    }
+    .about h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      font-family: "Goldman", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    .about p {
+      font-size: 1.125rem;
+      color: #6c757d;
+      /* color: white; */
+      max-width: 800px;
+      margin: auto;
+      font-family: "Open Sans", sans-serif;
+    }
+    .service h2 {
+      font-size: 2rem; 
+      margin-bottom: 20px;
+      font-family: "Goldman", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    .underline {
+        width: 60px;
+        height: 4px;
+        background-color: #5c3f2a;
+        border-radius: 2px;
+    }
+    .service-box img {
+        width: 80px;
+        height: 80px;
+    }
+    .service-box h5 {
+      font-size: 1.25rem;
+      margin-top: 15px;
+      font-family: "Kanit", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      color: #282626;
+    }
+    .service-box p {
+      font-size: 1rem;
+      color: #2c2f31;
+      font-family: "Open Sans", sans-serif;
+    }
+    .project {
+      /* padding: 60px 0; */
+      background-color: #f8f9fa;
+    }
+    .project h2 {
+      font-size: 2rem;
+      /* margin-bottom: 20px; */
+      font-family: "Goldman", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+    .card-body h5{
+        font-family: "Kanit", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+    .card-body p{
+        font-family: "Open Sans", sans-serif;
+    }
+    .social h2{
+        font-family: "Goldman", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .social p{
+        font-family: "Kanit", sans-serif;
+        /* font-weight: 500;
+        font-style: normal; */
+    }
+    .footer {
+      background: #5d3c23;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    .footer p{
+        font-family: "Kanit", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
